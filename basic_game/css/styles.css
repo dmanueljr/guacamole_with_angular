@@ -1,0 +1,29 @@
+/*
+  You might want to display your holes using display:inline-block here. Or you could float them all left.
+  Either way, they should probably be contained within a wrapper that limits them to 3 per row.
+
+  For step 6, this is also where you should have a class that makes mole.png a background image of whichever hole has the mole.
+*/
+
+body{
+	width:500px;
+}
+.hole {
+	height:115px;
+	width:150px;
+	border: 1px solid black;
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+.moleHere{
+	height:115px;
+	width:150px;
+	border: 1px solid black;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	background: url(mole.png);
+}
+
+
